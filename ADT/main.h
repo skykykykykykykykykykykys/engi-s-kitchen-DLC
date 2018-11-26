@@ -2,15 +2,23 @@
 
 #define main_H
 /* spesifikasi ADT Main */
+#include <stdio.h>
+#include <stdlib.h>
+
 #include "jam.h"
-#include "mesinkar.h"
+#include "ADT_mesinkar.h"
 #include "ADT_mesinkata.h"
+#include "ADT_stack.h"
+#include "ADT_queue.h"
+#include "ADT_point.h"
+#include "boolean.h"
+
 
 /* KAMUS */
 typedef struct {
-          Jam Waktu;     // Informasi Waktu tersisa
+          int Waktu;     // Informasi Waktu tersisa
           int Reputasi;  // Informasi 'Nyawa" player
-          int Peta;      // Memberi tahu player terdapat di ruangan mana
+          POINT Peta;      // Memberi tahu player terdapat di ruangan mana
 
      } Player ;
 
@@ -25,6 +33,14 @@ typedef Stack FoodStack;
 
 /* Tipe Bentukan Peta Ruangan */
 typedef MATRIKS PetaRuang;
+
+
+/* Fungsi dan Prosedur */
+
+void PromptUser(char KataPrompt);
+
+
+
 
 
 #endif

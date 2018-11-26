@@ -1,6 +1,3 @@
-
-
-
 #include "ADT_mesinkata.h"
 
 void IgnoreBlank()

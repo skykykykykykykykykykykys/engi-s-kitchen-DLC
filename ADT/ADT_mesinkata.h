@@ -1,7 +1,7 @@
 
 #ifndef __kata_H__
 #define __kata_H__
-#include "mesinkar.h"
+#include "ADT_mesinkar.h"
 #define NMax 50
 #define BLANK ' '
 
